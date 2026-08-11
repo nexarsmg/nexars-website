@@ -23,3 +23,4 @@ Most changes are intentionally simple:
 - Colors/layout/mobile: edit `styles.css`
 - Navigation/interactive behavior: edit `script.js`
 - Images: replace files in `assets/` and keep the same filenames where possible.
+Cloudflare deployment configured.
