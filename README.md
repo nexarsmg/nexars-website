@@ -1,26 +1,19 @@
-# NexArs website
+# NexArs — FINAL UPLOAD PACKAGE
 
-Responsive one-page website for NexArs.
+This package is ready to replace the current NexArs static website.
 
-## Structure
+Included:
+- Updated index.html
+- Updated styles.css
+- Existing script.js, robots.txt, sitemap.xml and wrangler.jsonc
+- Optimized WebP assets with the exact filenames expected by index.html
 
-- `index.html` — content and SEO metadata
-- `styles.css` — all visual styles and responsive breakpoints
-- `script.js` — mobile navigation, active section and reveal animations
-- `robots.txt` / `sitemap.xml` — basic SEO
-- `assets/*.webp` — optimized images
+Important:
+1. Replace the website files with the contents of this package.
+2. Keep the assets/ folder and all files inside it.
+3. The contact email is nexars@nexarsmg.com.
+4. LinkedIn and Facebook links are already included in the footer.
 
-## Cloudflare
-
-This project is static HTML/CSS/JS and can be deployed directly with Cloudflare Workers/Pages.
-
-After changing files, commit/push the repository and trigger a new deployment.
-
-## Editing later
-
-Most changes are intentionally simple:
-- Text: edit `index.html`
-- Colors/layout/mobile: edit `styles.css`
-- Navigation/interactive behavior: edit `script.js`
-- Images: replace files in `assets/` and keep the same filenames where possible.
-Cloudflare deployment configured.
+Image assets were converted to high-quality WebP and lightly sharpened for web display.
+The original image pixels were not replaced with AI-generated content; enlarging a low-resolution original
+cannot create genuinely new photographic detail.

@@ -1,0 +1,13 @@
+NexArs final asset inventory
+
+logo.webp                Logo NexArs
+about-founder.webp       About — founder/professional
+about-team.webp          About — team collaboration
+contact-ink.webp         Contact — cyan ink visual
+founder.webp             Founder portrait
+madagascar.webp          Madagascar cityscape
+service-1.webp           Service 1
+service-2.webp           Service 2
+service-3.webp           Service 3
+
+All filenames match the references used by index.html.

@@ -258,3 +258,9 @@ button{font:inherit}
   .site-footer>div:first-child{justify-content:center}.site-footer nav{grid-column:auto;grid-row:auto;flex-wrap:wrap;justify-content:center}
   .footer-right{justify-content:center;flex-direction:column;gap:7px}
 }
+
+.footer-socials{display:flex;align-items:center;justify-content:center;gap:10px}
+.footer-socials a{width:36px;height:36px;display:grid;place-items:center;border:1px solid rgba(23,50,56,.18);border-radius:50%;color:var(--cyan-deep);text-decoration:none;font-family:Arial,sans-serif;font-size:16px;font-weight:700;transition:transform .2s ease,background .2s ease,color .2s ease,border-color .2s ease}
+.footer-socials a:hover{transform:translateY(-2px);background:var(--cyan);border-color:var(--cyan);color:#fff;text-decoration:none}
+@media (max-width:900px){.footer-socials{grid-column:1/-1;grid-row:3}}
+@media (max-width:680px){.footer-socials{grid-column:auto;grid-row:auto}}
